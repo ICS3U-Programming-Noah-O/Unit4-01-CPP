@@ -30,6 +30,8 @@ int main() {
         // and including the user number
         while (numberCounter <= userNumInt) {
         total = total + numberCounter;
+        std::cout << "Tracking " << numberCounter;
+        std::cout << " times through the loop\n";
         numberCounter = numberCounter + 1;
         }
         // Print final result
